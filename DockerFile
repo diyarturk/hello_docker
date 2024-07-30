@@ -1,6 +1,6 @@
 FROM python:3.8-slim
 WORKDIR /app
-COPY hello.python .
+COPY docker_hello.python .
 
 CMD ["python", "docker_hello.py"]
 
